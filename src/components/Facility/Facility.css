@@ -1,0 +1,8 @@
+.ourFacility{
+    display: flex;
+}
+.cardContainer{
+    display: flex;
+    margin-left: 5%;
+    column-gap: 50px;
+}

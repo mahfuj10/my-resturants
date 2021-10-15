@@ -1,0 +1,11 @@
+footer{
+    background-color: black;
+    margin-top: 200px !important;
+    padding: 60px;
+}
+footer p {
+    color: whitesmoke;
+}
+footer a{
+    color: red !important;
+}

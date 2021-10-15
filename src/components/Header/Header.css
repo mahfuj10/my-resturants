@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    margin-left: 100px;
+}
+
+.hederBanner{
+    height: 600px;
+    padding: 0;
+    margin-top: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.buttonContainer{
+    margin-right: 100px;
+    display: flex;
+    column-gap: 30px;
+}
+.login-button{
+    border: none;
+    background-color: #fff;
+    font-weight: bold;
+}
+.signUp-button{
+    border: none;
+    background-color: #e62753;
+    padding: 4px 19px;
+    color: whitesmoke;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.searchContainer{
+    position: absolute;
+    left: 40%;
+    margin-top: 15%;
+    z-index: 6;
+}
+.searchInput{
+    border: none;
+    width: 340px;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 25px;
+}
+.searchButton{
+    border: none;
+    background-color: #e62753;
+    padding: 9px 29px;
+    color: whitesmoke;
+    border-radius: 25px;
+    font-size: 15px;
+    position: absolute;
+    left: 90%;
+}

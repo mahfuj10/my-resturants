@@ -1,0 +1,160 @@
+[
+    {
+        "name":"Healthy Meal Plan",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/mbXSWZ2/lunch6.png",
+        "price":"13.44",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"launch"
+    },
+    {
+        "name":"Fried Chicken Bento",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/WswSVbd/lunch5.png",
+        "price":"12.87",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"launch"
+    },
+    {
+        "name":"Tarragon-Rubbed-Salmon",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/dKw7Fp1/lunch4.png",
+        "price":"9,99",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"launch"
+    },
+    {
+        "name":"Indian Lanuch",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/BVnLSrV/lunch3.png",
+        "price":"6.33",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"launch"
+    },
+    {
+        "name":"Beef Steak",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/9ZfvMJz/lunch2.png",
+        "price":"16.66",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"launch"
+    },
+    {
+        "name":"Honey-Soy-Glazed Salmon with Peppers",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/WgpKgvc/lunch1.png",
+        "price":"7.55",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"launch"
+    }, {
+        "name":"Salmon with Graperfruit and Lentil Salad",
+        "title":"How we dream about our future ",
+        "image":"https://i.ibb.co/fH2QKTD/dinner5.png",
+        "price":"14.22",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"dinner"
+    },
+
+    {
+        "name":"Lemony Salmon Piccata",
+        "title":"How we dream about our future ",
+        "image":"https://i.ibb.co/jTynxX5/dinner4.png",
+        "price":"20.22",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"dinner"
+    },
+    
+    {
+        "name":"Pork With Quinoa Pilaf",
+        "title":"How we dream about our future ",
+        "image":"https://i.ibb.co/VYy1KHm/dinner3.png",
+        "price":"19.00",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"dinner"
+    },
+
+    {
+        "name":"French Fires with Cheese",
+        "title":"How we dream about our future ",
+        "image":"https://i.ibb.co/NjZPd4T/dinner2.png",
+        "price":"86",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"dinner"
+    },
+
+    {
+        "name":"Garlic Butter Baked Salmon",
+        "title":"How we dream about our future ",
+        "image":"https://i.ibb.co/FsH6Hfg/dinner1.png",
+        "price":"8.88",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"dinner"
+    },
+
+    {
+        "name":"Baked Chiken",
+        "title":"How we dream about our future ",
+        "image":"https://i.ibb.co/wrz4xhF/dinner6.png",
+        "price":"49",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"dinner"
+    },
+    {
+        "name":"Bagel and Cream Cheese",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/T1TtqCR/breakfast1.png",
+        "price":"2.77",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"breakfast"
+    },
+    
+    {
+        "name":"Breakfast Sandwich",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/VLyCf5N/breakfast2.png",
+        "price":"3.23",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"breakfast"
+    },
+    
+    {
+        "name":"Baked Chicken",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/7Kbh8QJ/breakfast3.png",
+        "price":"17.34",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"breakfast"
+    },
+    
+    {
+        "name":"Eggs Benedict",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/qmtzpRX/breakfast4.png",
+        "price":"8.86",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"breakfast"
+    },
+
+    {
+        "name":"Toast Crissant Fried Egg",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/mHYJRJf/breakfast5.png",
+        "price":"16.66",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"breakfast"
+    },
+
+    {
+        "name":"Full Breakfast Fried Egg Toast Brunch",
+        "title":"How we dream about our future",
+        "image":"https://i.ibb.co/wdgV3Tp/breakfast6.png",
+        "price":"5.11",
+        "description":"A healthy diet is essential for good health and nutrition. It protects you against many chronic noncommunicable diseases, such as heart disease, diabetes and cancer. Eating a variety of foods and consuming less salt, sugars and saturated and industrially-produced trans-fats, are essential for healthy diet.",
+        "category":"breakfast"
+    }
+]
+
+
+
+
+

@@ -17,11 +17,9 @@ const Breakfast = () => {
     
 
     
-    
-    
         return (
            
-            <section className="item-container">
+            <section className="item-container" style={{height:"730px"}}>
                
                 {
                     items.map( item => <BreakfastItem breakfast={item}></BreakfastItem>

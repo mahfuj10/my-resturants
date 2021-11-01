@@ -1,0 +1,20 @@
+
+
+
+.increaseBtn{
+    padding: 2px 25px !important;
+    border-radius: 25px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.cartButton{
+    border: none;
+    background-color: #e62753;
+    padding: 9px 29px;
+    color: whitesmoke;
+    border-radius: 25px;
+    font-size: 15px;
+}

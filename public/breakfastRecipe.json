@@ -2,23 +2,23 @@
     {
         "name":"Baked Chicken",
         "title":"How we dream about our future",
-        "image":"./Breakfast/breakfast1.png",
-        "price":"13",
+        "image":"https://i.ibb.co/T1TtqCR/breakfast1.png",
+        "price":"33",
         "id":"12aad43"
     },
     
     {
         "name":"Baked Chicken",
         "title":"How we dream about our future",
-        "image":"./Breakfast/breakfast2.png",
-        "price":"14",
+        "image":"https://i.ibb.co/VLyCf5N/breakfast2.png",
+        "price":"54",
         "id":"902d43"
     },
     
     {
         "name":"Baked Chicken",
         "title":"How we dream about our future",
-        "image":"./Breakfast/breakfast3.png",
+        "image":"https://i.ibb.co/7Kbh8QJ/breakfast3.png",
         "price":"17",
         "id":"12aasdea453"
     },
@@ -26,7 +26,7 @@
     {
         "name":"Baked Chicken",
         "title":"How we dream about our future",
-        "image":"./Breakfast/breakfast4.png",
+        "image":"https://i.ibb.co/qmtzpRX/breakfast4.png",
         "price":"19",
         "id":"12ssadw23dp43"
     },
@@ -34,7 +34,7 @@
     {
         "name":"Baked Chicken",
         "title":"How we dream about our future",
-        "image":"./Breakfast/breakfast5.png",
+        "image":"https://i.ibb.co/mHYJRJf/breakfast5.png",
         "price":"11",
         "id":"12sd23fg4e"
     },
@@ -42,7 +42,7 @@
     {
         "name":"Baked Chicken",
         "title":"How we dream about our future",
-        "image":"./Breakfast/breakfast6.png",
+        "image":"https://i.ibb.co/wdgV3Tp/breakfast6.png",
         "price":"9",
         "id":"798dsfihls"
     }

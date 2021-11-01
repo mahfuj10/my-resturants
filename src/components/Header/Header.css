@@ -1,22 +1,29 @@
+/* body */
 body{
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
 }
+/*----------------
+    navbar
+-------------- */
 .navbar{
     display: flex;
     flex-direction: row;
+    background-color: #FCF4E0;
 }
 .logo{
     margin-left: 100px;
 }
 
 .hederBanner{
-    height: 600px;
+    height: 93vh;
     padding: 0;
-    margin-top: 50px;
     width: 100%;
     background-size: cover;
 }
+
+/* button */ 
 
 .buttonContainer{
     margin-right: 100px;
@@ -25,7 +32,7 @@ body{
 }
 .login-button{
     border: none;
-    background-color: #fff;
+    background-color: #FCF4E0;
     font-weight: bold;
 }
 .signUp-button{
@@ -36,21 +43,34 @@ body{
     border-radius: 25px;
     font-size: 15px;
 }
+/* header title */
+.hederBanner h1{
+    padding-top: 20%;
+    font-size: 70px;
+    text-align: center;
+    color: #e62753;
+    font-family: 'Sacramento', cursive;
+}
+/* search input */
 
 .searchContainer{
     position: absolute;
     left: 40%;
-    margin-top: 15%;
+    margin-top: 1%;
     z-index: 6;
 }
 .searchInput{
     border: none;
     width: 340px;
-    background-color: grey;
+    background-color: #fff;
     padding: 8px;
     border-radius: 25px;
 }
-.searchButton{
+.searchInput::placeholder{
+    padding-left: 20px;
+    color: grey;
+}
+.searchButton{ 
     border: none;
     background-color: #e62753;
     padding: 9px 29px;
@@ -59,4 +79,21 @@ body{
     font-size: 15px;
     position: absolute;
     left: 90%;
+}
+
+/*-----------------------
+     media query
+------------------  */
+@media (max-width:601px) {
+    .hederBanner{
+        width: 100% !important;
+        /* height: 100% ; */
+    }
+    .searchContainer{
+     left: 7%;
+     top: 35%;
+    }
+    .searchInput{
+        width: 250px;
+    }
 }

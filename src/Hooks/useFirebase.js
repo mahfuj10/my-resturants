@@ -16,13 +16,13 @@ const UseFirebase = () => {
 
     const googleSignIn = () => {
 
-      signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user);
-            })
-            .catch(error => {
-                setError(error.message);
-            })
+    return  signInWithPopup(auth, googleProvider)
+            // .then(result => {
+            //     setUser(result.user);
+            // })
+            // .catch(error => {
+            //     setError(error.message);
+            // })
     }
 
     const signWithFacebook = () => {

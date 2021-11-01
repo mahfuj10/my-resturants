@@ -6,13 +6,13 @@ const Facility = () => {
   
     return (
   
-        <section>
+        <section className="pt-5">
           
-            <h3>Why you choose us</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod nulla facilis corporis distinctio corrupti ducimus cumque ratione. Reprehenderit, accusamus! Reprehenderit!</p>
+            <h3 className="fw-bold mt-5 mb-4" style={{marginLeft:"120px"}}>Why you choose us</h3>
+            <p className="w-25 facilityText" >Barton waited twenty always repair in within we do . An delighted offending curiosity my is daswoods at . Boy prosperous increasing surronded.</p>
           
-            <article className="ourFacility">
-                  <FacilityCard />
+            <article className="ourFacility row" >
+                 <FacilityCard></FacilityCard>
             </article>
         </section>
     );

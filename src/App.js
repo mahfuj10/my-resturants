@@ -1,45 +1,74 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Facility from './components/Facility/Facility';
+import Cart from './components/Cart/Cart';
+import BreakfastDetails, { foodContext, singaleFoodContext } from './components/Details/BreakfastDetails';
+import DinnerDetials from './components/Details/DinnerDetails';
+import LaunchDetials from './components/Details/LaunchDetials';
 import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
 import Nav from './components/Header/Nav';
-import Menu from './components/Menu/Menu';
+import Home from './components/Home/Home';
 import SignUpLogin from './components/SignUpLogin/SignUpLogin';
+import AuthProvider from './Context/AuthProvider';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 
 
 function App() {
   
+      const [ food , setFood ] = useState();
+      const [ singleFood , setSingleFood ] = useState();
+
   return (
+   
+    <AuthProvider>
 
-          <BrowserRouter>
+      <singaleFoodContext.Provider value={[singleFood, setSingleFood]}>
+       <foodContext.Provider value={[ food , setFood ]}>
 
-               
+      <BrowserRouter>            
         
-        {/* <BreakfastDetails /> */}
-        
+            <Nav />
           <Switch>
-
+            
              <Route exact path='/'>
-                  <Header />
-                  <Menu />
-                  <Facility />
-                  <Footer />
+                 <Home />
+             </Route>
+
+             <Route  path='/home'>
+                 <Home />
              </Route>
 
             <Route path="/account">
-                  <Nav />
                   <SignUpLogin />
             </Route>
+
+            <PrivateRoute  path="/mycart">
+                  <Cart />
+            </PrivateRoute>
           
-     
+          <Route  path="/details/:foodId">
+                 <BreakfastDetails />
+          </Route>
+
+          <Route  path="/launchDetails/:launchId">
+                  <LaunchDetials />
+          </Route>
+
+          <Route  path="/dinnerDetails/:dinnerId">
+                  <DinnerDetials />
+          </Route>
+
           
           </Switch>
+          <Footer />
 
-          </BrowserRouter>
+      </BrowserRouter>
 
+    </foodContext.Provider>
+    </singaleFoodContext.Provider>
+    </AuthProvider>
 );
 }
 

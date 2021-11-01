@@ -1,41 +1,79 @@
 /* nav link */
-nav a{
-    text-decoration: none;
-    color: black;
-    font-weight: 500;
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.nav-link,
+.nav-link:hover {
+  color: black;
+  border: none !important;
+  font-weight: 500;
+}
+
+.active:nth-child(1) {
+  border: none !important;
+  color: #e62753 !important;
+  /* border-bottom: 3px solid #e62753 !important; */
 }
 
 /* dinner lauch breagast conatienr */
-.item-container{
-    display: grid;
-    grid-template-columns: repeat(3, 23rem);
-    justify-content: center;
-    margin-top: 80px;
+.item-container {
+  display: grid;
+  grid-template-columns: repeat(3, 23rem);
+  justify-content: center;
+  margin-top: 80px;
 }
 
 /* signle food */
 .food-item {
-width: 270px;
-/* background-color: aqua; */
-margin-bottom: 50px;
-height: 300px;
-padding: 10px 20px;
-padding-top: 34px;
+  width: 270px;
+  /* background-color: aqua; */
+  margin-bottom: 50px;
+  height: 320px;
+  padding: 10px 20px;
+  padding-top: 34px;
 }
-.food-item h6, p{
-    text-align: center;
+
+.food-item img {
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
 }
-.food-item img{
-    display: flex;
-    justify-content: center;
-    margin-left: 15%;
+.food-item:nth-child(2) {
+  box-shadow: 0 0.5rem 1rem rgb(190, 189, 189);
+  border-radius: 10px;
 }
-.food-item:nth-child(2){
-    box-shadow: 0 .5rem 1rem rgb(190, 189, 189);
-    border-radius: 10px;
+.food-item:hover {
+  box-shadow: 0 0.5rem 1rem rgb(190, 189, 189);
+  border-radius: 10px;
+  transition: 0.2s;
 }
-.food-item:hover{
-box-shadow: 0 .5rem 1rem rgb(190, 189, 189);
-border-radius: 10px;
-transition: 0.2s;
+
+/*----- bootstrap tab ---*/
+.navTabs {
+  border: none;
+  text-decoration: none !important;
+}
+.nav-item:nth-child(1) {
+  margin-left: 45% !important;
+}
+.nav-item {
+  padding-top: 5%;
+}
+
+/* ---------------------
+    media query
+-------------------- */
+/* for mobile */
+
+@media (max-width: 601px) {
+  .item-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+  .food-item {
+    margin: 0 auto;
+  }
 }

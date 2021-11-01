@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory, useLocation } from 'react-router';
 import UseFirebase from '../../Hooks/useFirebase';
 import Regester from './Regester';
 import './SignUpLogin.css';
@@ -19,12 +20,18 @@ const handaleSignIn = () => {
 
 
 
-
 const SignUpLogin = () => {
+   
+    const history = useHistory();
+    const location = useLocation();
+    const redirect_url = location.state?.from || "/home"; 
 
     const { googleSignIn } = UseFirebase(); 
     const handaleGoogleSign = () => {
-       googleSignIn();
+       googleSignIn()
+       .then(()=>{
+           history.push(redirect_url);
+       })
     }
     
     return (
